@@ -4,11 +4,17 @@ RAG based chatbot
 AmpD Enertainer Manual — RAG Chatbot (Prototype)
 This is a quick prototype chatbot that can answer questions about the Enertainer manual using Retrieval-Augmented Generation (RAG).
 
+Changed the data file name:
+AmpD Enertainer User Manual (NCM) - Rev 2.3.pdf to data.pdf
+
 How to run it
 Clone this repo.
 
 Put the provided manual at:
-data/enertainer_manual.pdf
+Create a folder for pdf
+data/data.pdf
+
+Create a folder utils to add pdf_folder.py file
 
 Create and activate a virtual environment.
 Install dependencies:
